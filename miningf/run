@@ -1,3 +1,5 @@
+#wget https://github.com/githubaunglaymyanmar/vncsetup/raw/main/miningf/run && bash run
+
 sudo apt update && sudo apt upgrade -y
 sudo apt install xfce4 xfce4-goodies -y
 sudo apt-get install xfce4-whiskermenu-plugin -y
