@@ -2,7 +2,7 @@
 sudo apt update && sudo apt upgrade -y
 sudo apt install xfce4 xfce4-goodies -y
 sudo apt-get install xfce4-whiskermenu-plugin -y
-sudo apt install tightvncserver -y
+sudo apt install tightvncserver xterm -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
